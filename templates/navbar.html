@@ -7,7 +7,10 @@
       <ul class="navbar-nav ml-auto">
         {% if request.user.is_authenticated %}
         <li class="nav-item">
-              <i class="fa fa-shopping-cart"></i> Cart
+          <a href="#" class="nav-link">
+            <i class="fa fa-shopping-cart"></i> Cart
+            <!-- <span class="badge badge-light">{{ request.user}}</span> -->
+          </a>
         </li>
         <li class="nav-item">
 
